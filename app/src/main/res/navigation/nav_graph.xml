@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/screenA">
+
+    <fragment
+        android:id="@+id/screenA"
+        android:name="com.loksc.android.reduxexample.ScreenA"
+        android:label="ScreenA" />
+    <fragment
+        android:id="@+id/screenB"
+        android:name="com.loksc.android.reduxexample.ScreenB"
+        android:label="ScreenB" />
+</navigation>
